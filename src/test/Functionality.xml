@@ -1,0 +1,10 @@
+<suite name="TestVagrant Testing">
+    <parameter name="browser" value="chrome"/>
+
+
+    <test name="Run the vagrant TestCases" preserve-order="true">
+        <classes>
+            <class name="Tests.UiapiAutomation"/>
+        </classes>
+    </test>
+</suite>

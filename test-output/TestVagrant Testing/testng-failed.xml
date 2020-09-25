@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestVagrant Testing]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Run the vagrant TestCases(failed)">
+    <classes>
+      <class name="Tests.UiapiAutomation">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitbrowser"/>
+          <include name="reachtheweather"/>
+        </methods>
+      </class> <!-- StepDefinations.UiapiAutomation -->
+    </classes>
+  </test> <!-- Run the vagrant TestCases(failed) -->
+</suite> <!-- Failed suite [TestVagrant Testing] -->
